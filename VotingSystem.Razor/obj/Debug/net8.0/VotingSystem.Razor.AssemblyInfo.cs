@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VotingSystem.Razor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3e9e1e49790a2a0d77430de2661a368913b6b23e")]
 [assembly: System.Reflection.AssemblyProductAttribute("VotingSystem.Razor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VotingSystem.Razor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

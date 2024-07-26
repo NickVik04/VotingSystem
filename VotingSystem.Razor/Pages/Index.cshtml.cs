@@ -1,4 +1,6 @@
+using System.Drawing;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.ModelBinding.Binders;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace VotingSystem.Razor.Pages;
@@ -14,6 +16,11 @@ public class IndexModel : PageModel
 
     public void OnGet()
     {
+        
+    }
 
+    public void OnPost(){
+    
+        
     }
 }
