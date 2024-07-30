@@ -28,7 +28,8 @@ public class IndexModel : PageModel
     // }
 
     private readonly ApplicationDbContext _context;
-    public IndexModel(ApplicationDbContext context){
+    public IndexModel(ApplicationDbContext context)
+    {
         _context = context;
     }
 
@@ -37,10 +38,11 @@ public class IndexModel : PageModel
 
     }
 
-    public void OnPost()
-    {   
-        if(ModelState.IsValid && Role =="Candidate"){
-            var candidate = new Candidate
+    public IActionResult OnPost()
+    {
+        if (ModelState.IsValid && Role == "Candidate")
+        {
+            var candidate = new Models.Candidate
             {
                 Name = Name,
                 UserRole = Role,
@@ -50,10 +52,13 @@ public class IndexModel : PageModel
 
             _context.Candidate.Add(candidate);
             _context.SaveChanges();
+
+            return RedirectToPage("/Success");
         }
 
-            else if(ModelState.IsValid && Role =="Voter"){
-            var voter = new Voter
+        else if (ModelState.IsValid && Role == "Voter")
+        {
+            var voter = new Models.Voter
             {
                 Name = Name,
                 UserRole = Role,
@@ -63,7 +68,12 @@ public class IndexModel : PageModel
 
             _context.Voter.Add(voter);
             _context.SaveChanges();
-        }   
+
+            return RedirectToPage("/Success");
+
+        }
+        return Page();
+
 
 
     }

@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = /home/nikhil.sharma@corp.easyrewardz.com/Desktop/VotingSystem/VotingSystem.Razor
 build_property._RazorSourceGeneratorDebug = 
 
+[/home/nikhil.sharma@corp.easyrewardz.com/Desktop/VotingSystem/VotingSystem.Razor/Pages/Candidate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ2FuZGlkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/nikhil.sharma@corp.easyrewardz.com/Desktop/VotingSystem/VotingSystem.Razor/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -26,12 +30,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[/home/nikhil.sharma@corp.easyrewardz.com/Desktop/VotingSystem/VotingSystem.Razor/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [/home/nikhil.sharma@corp.easyrewardz.com/Desktop/VotingSystem/VotingSystem.Razor/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/nikhil.sharma@corp.easyrewardz.com/Desktop/VotingSystem/VotingSystem.Razor/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/nikhil.sharma@corp.easyrewardz.com/Desktop/VotingSystem/VotingSystem.Razor/Pages/Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvU3VjY2Vzcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/nikhil.sharma@corp.easyrewardz.com/Desktop/VotingSystem/VotingSystem.Razor/Pages/Voter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVm90ZXIuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/nikhil.sharma@corp.easyrewardz.com/Desktop/VotingSystem/VotingSystem.Razor/Pages/_ViewImports.cshtml]
